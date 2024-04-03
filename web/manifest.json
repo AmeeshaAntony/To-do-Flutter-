@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "todo1",
     "short_name": "todo1",
+=======
+    "name": "todo",
+    "short_name": "todo",
+>>>>>>> 32f5620c5eb099e92b0c5e21a74137aa0b469534
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
