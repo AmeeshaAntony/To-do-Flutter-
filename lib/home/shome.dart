@@ -15,6 +15,7 @@ class ScreenHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green,
       appBar: AppBar(title: Text("Money Manager App"),centerTitle: true,),
       bottomNavigationBar: const BottomNavigation1(),
       body: SafeArea(child: ValueListenableBuilder(valueListenable: selectedIndexNotifier, builder:(BuildContext context,int updated,_){
