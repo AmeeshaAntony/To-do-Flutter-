@@ -40,11 +40,27 @@ static void my_application_activate(GApplication* application) {
   if (use_header_bar) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
+<<<<<<< HEAD
     gtk_header_bar_set_title(header_bar, "money");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "money");
+=======
+<<<<<<< HEAD
+    gtk_header_bar_set_title(header_bar, "todo1");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "todo1");
+=======
+    gtk_header_bar_set_title(header_bar, "todo");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "todo");
+>>>>>>> 32f5620c5eb099e92b0c5e21a74137aa0b469534
+>>>>>>> 5b770b924156b0a2047c71856b175c65fdf8caca
   }
 
   gtk_window_set_default_size(window, 1280, 720);

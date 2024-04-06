@@ -5,7 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Money</string>
+=======
+<<<<<<< HEAD
+	<string>Todo1</string>
+=======
+	<string>Todo</string>
+>>>>>>> 32f5620c5eb099e92b0c5e21a74137aa0b469534
+>>>>>>> 5b770b924156b0a2047c71856b175c65fdf8caca
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +21,15 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>money</string>
+=======
+<<<<<<< HEAD
+	<string>todo1</string>
+=======
+	<string>todo</string>
+>>>>>>> 32f5620c5eb099e92b0c5e21a74137aa0b469534
+>>>>>>> 5b770b924156b0a2047c71856b175c65fdf8caca
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

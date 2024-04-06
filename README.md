@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # money
+=======
+<<<<<<< HEAD
+# todo1
+=======
+# todo
+>>>>>>> 32f5620c5eb099e92b0c5e21a74137aa0b469534
+>>>>>>> 5b770b924156b0a2047c71856b175c65fdf8caca
 
 A new Flutter project.
 
