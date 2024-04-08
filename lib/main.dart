@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:money/data/database.dart';
 import 'package:money/home/shome.dart';
+import 'package:money/util/dialog_box.dart';
+import 'package:money/util/todo_tile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,34 +37,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home:  ScreenHome(),
-=======
-import 'package:todo1/data/database.dart';
-import 'package:todo1/util/dialog_box.dart';
-import 'package:todo1/util/todo_tile.dart';
-import 'package:hive_flutter/hive_flutter.dart';
-
-void main() async {
-  await Hive.initFlutter();
-  await Hive.openBox('myBox'); // Open the Hive box here
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
-      theme: ThemeData(primarySwatch: Colors.yellow),
->>>>>>> 5b770b924156b0a2047c71856b175c65fdf8caca
     );
   }
 }
 
-<<<<<<< HEAD
-=======
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -145,4 +124,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
->>>>>>> 5b770b924156b0a2047c71856b175c65fdf8caca

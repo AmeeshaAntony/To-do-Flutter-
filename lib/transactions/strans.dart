@@ -6,10 +6,16 @@ class ScreenTransactions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
+      padding: const EdgeInsets.all(10),
       itemBuilder: (ctx,index){
-        return Card(
+        return const Card(
+          elevation:0,
           child: ListTile(
-            leading: Text('12 dec 2024'),title: Text('12345'),subtitle: Text('Category Name'),
+            leading: CircleAvatar(
+              radius: 50,
+              child: Text(
+                  '12dec\n2024',textAlign: TextAlign.center,
+              )),title: Text('12345'),subtitle: Text('Category Name'),
           ),
         );
       }, separatorBuilder: (ctx,index){

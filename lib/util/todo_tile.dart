@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_slidable/flutter_slidable.dart';
+
 
 class ToDoTile extends StatelessWidget {
 
@@ -52,4 +52,13 @@ class ToDoTile extends StatelessWidget {
       ),
     );
   }
+  
+  ActionPane({required motion, required List<dynamic> children}) {}
+  
+  StretchMotion() {}
+  
+  SlidableAction({Function(BuildContext p1)? onPressed, required IconData icon, required MaterialColor backgroundColor, required BorderRadius borderRadius}) {}
+}
+
+Slidable({required endActionPane, required Container child}) {
 }
