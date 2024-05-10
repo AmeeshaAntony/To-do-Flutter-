@@ -2,11 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:money/data/database.dart';
 import 'package:money/home/shome.dart';
+import 'package:money/models/category/category.dart';
 import 'package:money/util/dialog_box.dart';
 import 'package:money/util/todo_tile.dart';
 
-void main() {
+Future<void> main() async{
+  WidgetsFlutterBinding.ensureInitialized();//To check whether all the connections in flutter project is initialized
+  await Hive.initFlutter();
+  //if(!Hive.isAdapterRegistered(CategoryMAdapter().typeId)){
+     // Hive.registerAdapter(CategoryMAdapter());
+ // }
   runApp(const MyApp());
+}
+
+class CategoryMAdapter {
+  int? get typeId => null;
 }
 
 class MyApp extends StatelessWidget {
